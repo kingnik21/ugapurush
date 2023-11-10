@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+    cursor: url(maratha.png),auto;
+}
+
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background: rgb(211, 129, 35);
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+    
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+#about{
+    padding-top: 10px;
+    color: chocolate;
+    background-color: beige;
+    text-align: center;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+}
+
+
+@keyframes bounce {
+
+    0%,100%{
+        transform: translateY(0);
+    }
+    
+    50%{
+        transform: translateY(-60px);
+    }
+}
